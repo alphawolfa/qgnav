@@ -45,6 +45,13 @@ body {
     display: block;
     margin-bottom: 2%;
 }
+.searchDiv div:nth-child(2) ul li{
+	height:13px;
+	line-height:13px;
+	margin-right:8px;
+    vertical-align:center;
+	font-size:13px;
+}
 .searchDiv div {
     display: inline-block;
 }
