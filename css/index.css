@@ -1,0 +1,228 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,button,input,textarea,th,td{
+    margin:0;padding:0;
+}
+html,body {
+    width:100%;
+
+}
+body {
+    font: 12px 'Microsoft YaHei',SimSun,Helvetica,Tahoma,Arial,sans-serif!important;
+
+    background: url(../img/bg1.png) no-repeat ;
+    background-size: cover;
+    color: #666;
+}
+.head {
+    background: #020202;
+    width:100%;
+    height: 90px;
+}
+.logo {
+    padding-top: 5px;
+    margin-left:14%;
+}
+.logo img{
+    width:80px;
+    height:80px;
+    display: block;
+}
+
+.searchDiv {
+
+    position: absolute;
+    right: 0;
+    top:24px;
+    width:auto;
+
+    margin-right: 16%;
+    height:auto;
+
+}
+.search {
+    float: left;
+}
+.searchDiv div:nth-child(1) {
+    display: block;
+    margin-bottom: 2%;
+}
+.searchDiv div {
+    display: inline-block;
+}
+.searchDiv div:nth-child(1) input{
+    background: #555;
+    color: white;
+}
+
+#srh {
+    width: 192px;
+    height: 18px;
+    padding: 5px 5px 5px 25px;
+    font-size: 14px;
+    border: medium none;
+    border-radius: 2px;
+    line-height: 18px;
+    background: #777;
+}
+.button {
+    border-radius: 2px;
+    height: 28px;
+    font-size: 12px;
+    _padding-top: 1px;
+    width: 60px;
+    line-height: 28px;
+    text-align: center;
+    border: medium none;
+    cursor: pointer;
+    color: #FFF;
+}
+.searchDiv div:nth-child(2) {
+    width: 100%;
+
+}
+.searchDiv div:nth-child(2) li{
+    list-style: none;
+    float: left;
+    font-size: 14px;
+    margin-right: 2%;
+    color:#C1C1C1;
+}
+.keyWd {
+    width:100%;
+    height: 390px;
+}
+.keyWd ul {
+    list-style: none;
+    display: block;
+    text-align: center;
+    margin-bottom: 16px;
+
+}
+.keyWd ul:nth-child(1) {
+    margin-top: 100px;
+}
+.keyWd li {
+
+    cursor: default;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    margin-right: 1.6em;
+    font-family: Frutiger,Helvetica,sans-serif;
+    font-size: 16px;
+    padding: 1em 1.5em;
+    color: #999;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.75);
+    border-radius: 5px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #eee;
+    box-shadow: inset 0 0 2em rgba(0,0,0,.05), 0 3px 0 #ddd, 0 3px 2px rgba(0,0,0,.5);
+}
+.keyWd li:hover {
+    border-bottom-color: rgb(204,204,204);
+    border-top-color: rgb(238,238,238);
+    box-shadow: rgba(0,0,0,0.075) 0px 0px 32px;
+
+}
+.keyWd ul:nth-child(1) li {
+    width:60.8px;
+    height: 52px;
+}
+.keyWd ul:nth-child(2) li {
+    width:56.8px;
+    height: 52px;
+}
+.keyWd ul:nth-child(3) li {
+    width:58.4px;
+    height: 52px;
+}
+.keyWd ul:nth-child(4) li {
+    width:57.6px;
+    height: 52px;
+}
+
+.e1 {
+    display: inline-block;
+    width:14px;
+    height:14px;
+    color:white;
+    text-align: center;
+    font-size: 10px;
+    background-color: #FFA500;
+    margin-right: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+.e1:hover {
+    background-color: #333;
+}
+.d1 {
+    display: inline-block;
+    width:14px;
+    height:14px;
+    color:white;
+    text-align: center;
+    font-size: 10px;
+    background-color: #FFA500;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.d1:hover {
+    background-color: #333;
+}
+.imgClass {
+    display: none;
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px #333 inset;
+}
+.creaDiv {
+    position: absolute;
+    left:4px;
+    top:0px;
+    display: none;
+}
+.foot {
+    width:100%;
+    height:50px;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    background-color: rgba(0,0,0,0.3);
+
+}
+.foot p {
+    text-align: center;
+    margin-top: 15px;
+    height:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
