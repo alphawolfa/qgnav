@@ -49,7 +49,7 @@ var keyLi = document.getElementsByClassName('keyWd')[0].getElementsByTagName('li
 //判断网址格式
 function CheckUrl(str) {
     var RegUrl = new RegExp();
-    RegUrl.compile("^[A-Za-z]+://[A-Za-z0-9-_]+\\.[A-Za-z0-9-_%&\?\/.=]+$");//jihua.cnblogs.com
+    RegUrl.compile("[a-zA-Z0-9][-a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+\.?");//jihua.cnblogs.com
     if (!RegUrl.test(str)) {
         return false;
     }
