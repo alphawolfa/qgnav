@@ -103,12 +103,10 @@ transform: translate(-50%,-30%)
     list-style: none;
     display: block;
     text-align: center;
-    margin-bottom: 16px;
+    margin-bottom: 2%;
 
 }
-.keyWd ul:nth-child(1) {
-    margin-top: 100px;
-}
+
 .keyWd li {
 
     cursor: default;
