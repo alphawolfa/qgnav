@@ -97,7 +97,7 @@ body {
 	position: absolute;
 left: 50%;
 top: 50%;
-transform: translate(-50%,-30%)
+transform: translate(-50%,-47%)
 }
 .keyWd ul {
     list-style: none;
@@ -113,7 +113,7 @@ transform: translate(-50%,-30%)
     box-sizing: border-box;
     position: relative;
     display: inline-block;
-    margin-right: 1.6em;
+    margin-right: 2.3em;
     font-family: Frutiger,Helvetica,sans-serif;
     font-size: 16px;
     padding: 1em 1.5em;
