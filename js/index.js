@@ -97,7 +97,7 @@ for (var i = 0,l = arre1.length; i < l; i++) {
                 window.event.cancelBubble = true;
             }
 
-            var urll = encodeURI(prompt('请输入键位['+x+']对应的网站地址'));
+            var urll = encodeURI(prompt('请输入键位['+x+']对应的网站地址',''));
 
             if (urll == null || urll ==''||urll == 'null') {
                 return ;
