@@ -207,6 +207,18 @@ transform: translate(-50%,-47%)
     margin-top: 15px;
     height:20px;
 }
+color:rgb(255 95 0)">input::-webkit-color:rgb(255 95 0)">input-placeholder {
+    color: white;
+    font-size: 22px;
+}
+color:rgb(255 95 0)">input::-moz-placeholder {
+    color: red;
+    font-size: 22px;
+}
+color:rgb(255 95 0)">input:-ms-color:rgb(255 95 0)">input-placeholder {
+    color: red;
+    font-size: 22px;
+}
 
 
 
