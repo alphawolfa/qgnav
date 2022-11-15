@@ -22,22 +22,22 @@ function query() {
     }else {
        if (bd.checked) {
            www = 'http://www.baidu.com/s?ie=utf-8&wd='+abc;
-           console.log(www);
+//            console.log(www);
        }else if (e360.checked) {
           www = 'https://www.so.com/s?q=' + abc;
-           console.log(www);
+//            console.log(www);
        }else if (sg.checked) {
            www = 'https://www.sogou.com/sogou?query=' + abc;
-           console.log(www);
+//            console.log(www);
        }else if (by.checked) {
            www = 'http://cn.bing.com/search?q=' + abc;
-           console.log(www);
+//            console.log(www);
        }else if (gg.checked) {
            www = 'http://www.google.com/?#newwindow=1&q=' + abc;
-           console.log(www);
+//            console.log(www);
        }else {
            www = 'http://www.baidu.com/s?ie=utf-8&wd=' + abc;
-           console.log(www);
+//            console.log(www);
        }
     }
 
