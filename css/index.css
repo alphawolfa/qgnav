@@ -56,28 +56,18 @@ body {
 .searchDiv div:nth-child(1) input{
     background: #555;
     color: white;
-}
-.search-box {
-display: flex;
-  justify-content: flex-start;
-   align-items: flex-start;
-}
-	
+}	
 #srh {
     width: 192px;
     height: 18px;
     padding: 5px 5px 5px 25px;
     font-size: 14px;
-	border-top-right-radius: 0;
-	border-bottom-right-radius: 0;
     border: medium none;
     border-radius: 2px;
     line-height: 18px;
     background: #777;
 }
 .button {
-	border-top-left-radius: 0;
-	border-bottom-left-radius: 0;
     border-radius: 2px;
     height: 28px;
     font-size: 12px;
